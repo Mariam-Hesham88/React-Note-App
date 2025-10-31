@@ -1,10 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
+import Navbar from '../Navbar/Navbar'
+import { Outlet } from 'react-router-dom'
 
 export default function Layout() {
-    let [counter, setCounter] = useState(0);
-    useEffect(() => { }, []);
-    
+
     return <>
-        Layout
+        <Navbar/>
+        <div className="p-4 sm:ml-64">
+            <Outlet></Outlet>
+        </div>
     </>
 }

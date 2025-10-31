@@ -5,6 +5,6 @@ export default function NotFound() {
     useEffect(() => { }, []);
     
     return <>
-        NotFound
+        <h1>NotFound</h1>
     </>
 }
