@@ -22,7 +22,7 @@ export default function Navbar() {
         </button>
         <aside id="logo-sidebar" className="fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full sm:translate-x-0" aria-label="Sidebar">
             <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
-                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white block ps-2.5 mb-5">NOTE APP</span>
+                <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white block ps-2.5 mb-5 text-blue-700">NOTE APP</span>
 
                 {userLogin ?
                     <ul className="space-y-2 font-medium">
